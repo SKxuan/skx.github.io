@@ -12,17 +12,17 @@
     
         <meta name="keywords" content>
     
-    <meta name="description" content="本文链接：https://blog.csdn.net/u010953692/article/details/91855640  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -   echo &apos;deb https://download.docker.com/linux/debian stretc">
+    <meta name="description" content="本文链接：https://blog.csdn.net/u010953692/article/details/91855640  1curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -  1echo &amp;apos;deb https://download.docker.com/linux/debian">
 <meta property="og:type" content="article">
 <meta property="og:title" content="kali linux 安装docker">
 <meta property="og:url" content="https://skxuan.github.io/skx.github.io/2019/10/20/kali-linux-安装docker/index.html">
 <meta property="og:site_name" content="学习日志">
-<meta property="og:description" content="本文链接：https://blog.csdn.net/u010953692/article/details/91855640  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -   echo &apos;deb https://download.docker.com/linux/debian stretc">
+<meta property="og:description" content="本文链接：https://blog.csdn.net/u010953692/article/details/91855640  1curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -  1echo &amp;apos;deb https://download.docker.com/linux/debian">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-10-20T03:17:41.673Z">
+<meta property="og:updated_time" content="2019-10-20T03:32:47.666Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="kali linux 安装docker">
-<meta name="twitter:description" content="本文链接：https://blog.csdn.net/u010953692/article/details/91855640  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -   echo &apos;deb https://download.docker.com/linux/debian stretc">
+<meta name="twitter:description" content="本文链接：https://blog.csdn.net/u010953692/article/details/91855640  1curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -  1echo &amp;apos;deb https://download.docker.com/linux/debian">
     
 
     
@@ -170,25 +170,18 @@
         
         <div class="article-entry" itemprop="articleBody">
             <p>本文链接：<a href="https://blog.csdn.net/u010953692/article/details/91855640" target="_blank" rel="noopener">https://blog.csdn.net/u010953692/article/details/91855640</a></p>
-<ol>
-<li><pre><code>curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-</code></pre>
-</li>
-<li><pre><code>echo 'deb https://download.docker.com/linux/debian stretch stable'> /etc/apt/sources.list.d/docker.list 
-</code></pre>
-</li>
-<li><pre><code>apt-get remove docker docker-engine docker.io containerd runc
-</code></pre>
-</li>
-<li><pre><code>apt-get install apt-transport-https  ca-certificates   curl  gnupg2  software-properties-common 
-</code></pre>
-</li>
-<li><pre><code>apt-get update</code></pre>
-</li>
-<li><pre><code>apt-get install docker-ce</code></pre>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -</span><br></pre></td></tr></table></figure>
 
-</li>
-</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &apos;deb https://download.docker.com/linux/debian stretch stable&apos;&gt; /etc/apt/sources.list.d/docker.list</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get remove docker docker-engine docker.io containerd runc</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install apt-transport-https  ca-certificates   curl  gnupg2  software-properties-common</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install docker-ce</span><br></pre></td></tr></table></figure>
+
 <h3 id="镜像"><a href="#镜像" class="headerlink" title="镜像"></a><strong>镜像</strong></h3><ul>
 <li>查找镜像 docker search centos</li>
 <li>下载镜像 docker pull centos</li>
@@ -217,7 +210,7 @@
 
 
 
-    <a data-url="https://skxuan.github.io/skx.github.io/2019/10/20/kali-linux-安装docker/" data-id="ck1yf89e30002mcus12zv0ol3" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
+    <a data-url="https://skxuan.github.io/skx.github.io/2019/10/20/kali-linux-安装docker/" data-id="ck1yfs75y0003t0us22jq3qxc" class="article-share-link"><i class="fa fa-share"></i>分享到</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -296,12 +289,10 @@
         "dateModified": "2019-10-20",
         "url": "https://skxuan.github.io/skx.github.io/2019/10/20/kali-linux-安装docker/",
         "description": "本文链接：https://blog.csdn.net/u010953692/article/details/91855640
+ 1curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 
-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
-
-
-echo 'deb https://download.docker.com/linux/debian stretc"
-        "wordCount": 81
+1echo &apos;deb https://download.docker.com/linux/debian "
+        "wordCount": 116
     }
 </script>
 
